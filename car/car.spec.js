@@ -43,6 +43,7 @@ describe('Car class', () => {
     // 0- start with tests in the green
     // 1- write simplest possible failing test
     // 2- write simplest code that will pass test
+    // 3- reward yourself refactoring
     expect(Car).toBeDefined()
   })
 })
