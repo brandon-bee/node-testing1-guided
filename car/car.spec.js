@@ -47,8 +47,9 @@ describe('Car class', () => {
     expect(Car).toBeDefined()
   })
   it('has a model prop', () => {
-    // you
     // instantiate a car using the Car class
+    const prius = new Car()
+    expect(prius).toHaveProperty('model')
     // assert that it has the right prop
   })
 })
