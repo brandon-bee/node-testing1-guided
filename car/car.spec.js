@@ -46,4 +46,7 @@ describe('Car class', () => {
     // 3- reward yourself refactoring
     expect(Car).toBeDefined()
   })
+  it('has a model prop', () => {
+    // you
+  })
 })
