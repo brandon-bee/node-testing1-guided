@@ -19,3 +19,7 @@ describe('intro to testing', () => {
     expect(actual).toBe(expected)
   })
 })
+
+describe('comparing values', () => { // do not use async on the describe
+
+})
