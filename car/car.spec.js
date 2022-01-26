@@ -1,4 +1,4 @@
 // Test away!
 test('sanity', () => {
-  expect(true).toBe
+  expect(true).toBe(false)
 })
