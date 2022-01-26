@@ -61,4 +61,5 @@ describe('Car class', () => {
     const miata = new Car('miata', 'mazda')
     expect(miata.odometer).toBe(0)
   })
+  it.todo('has a drive method ')
 })
