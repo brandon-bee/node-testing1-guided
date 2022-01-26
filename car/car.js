@@ -13,7 +13,7 @@ function makeObj() {
 
 class Car {
   constructor() {
-    this.model = ''
+    this.model = 'prius'
   }
 }
 
