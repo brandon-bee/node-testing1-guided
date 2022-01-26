@@ -12,8 +12,9 @@ function makeObj() {
 }
 
 class Car {
-  constructor(model) {
+  constructor(model, make) {
     this.model = model
+    this.make = make
   }
 }
 
