@@ -12,7 +12,9 @@ function makeObj() {
 }
 
 class Car {
-
+  constructor() {
+    this.model = ''
+  }
 }
 
 module.exports = {
