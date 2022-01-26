@@ -68,5 +68,7 @@ describe('Car class', () => {
 
     prius.drive(30)
     expect(prius.odometer).toBe(30)
+    prius.drive(50)
+    expect(prius.odometer).toBe(80)
   })
 })
