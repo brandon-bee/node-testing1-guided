@@ -57,6 +57,7 @@ describe('Car class', () => {
     expect(prius.make).toBe('toyota')
   })
   it('has an odometer at 0 miles', () => {
-    // you
+    // empty test is a false positive
+    const miata = new Car('miata', 'mazda', 'odometer')
   })
 })
