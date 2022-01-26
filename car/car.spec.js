@@ -34,7 +34,7 @@ describe('comparing values', () => { // do not use async on the describe
     expect({}).toEqual({})
     expect([]).toEqual([])
 
-    const o = { name: 'lady gaga' }
+    const o = { name: 'lady gaga', password: '1234' }
     // YOU!!!!!
     expect(o.name).toBe('lady gaga')
     expect(o).toEqual({ name: 'lady gaga' })
