@@ -3,9 +3,6 @@ function makeFive() {
   return 4
 }
 
-
-
-
 module.exports = {
-  makefi
+  makeFive,
 }

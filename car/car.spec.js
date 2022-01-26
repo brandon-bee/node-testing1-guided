@@ -1,5 +1,4 @@
-
-
+const { makeFive } = require('./car')
 
 test('sanity', () => {
   expect(true).toBe(true)
