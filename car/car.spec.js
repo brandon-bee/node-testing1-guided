@@ -1,9 +1,5 @@
 const { makeFive, makeFour, makeObj } = require('./car')
 
-test('sanity', () => {
-  expect(true).toBe(true)
-})
-
 describe('intro to testing', () => {
   test('sanity again', () => {
     expect(true).not.toBe(false)
@@ -40,4 +36,8 @@ describe('comparing values', () => { // do not use async on the describe
     // expect(o).toEqual({ name: 'lady gaga' }) NOT VERY RESILIENT
     expect(o).toMatchObject({ name: 'lady gaga' })
   })
+})
+
+describe('Car class', () => {
+  
 })
