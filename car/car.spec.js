@@ -21,5 +21,5 @@ describe('intro to testing', () => {
 })
 
 describe('comparing values', () => { // do not use async on the describe
-  test
+  it('works with objects')
 })
