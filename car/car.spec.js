@@ -33,5 +33,7 @@ describe('comparing values', () => { // do not use async on the describe
   test('shapes of composite values', () => {
     expect({}).toEqual({})
     expect([]).toEqual([])
+    const o = { name: 'lady gaga' }
+    // YOU
   })
 })
