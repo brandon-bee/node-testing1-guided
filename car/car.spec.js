@@ -1,4 +1,4 @@
-const { makeFive } = require('./car')
+const { makeFive, makeFour } = require('./car')
 
 test('sanity', () => {
   expect(true).toBe(true)
@@ -15,6 +15,7 @@ describe('intro to testing', () => {
   })
   test('async function', async () => {
     const expected = 4
-    const actual = await 
+    const actual = await makeFour()
+    expect(actual).toBe(expected)
   })
 })
