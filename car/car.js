@@ -1,6 +1,6 @@
 // Build a Car class!
 function makeFive() {
-  return 4
+  return 5
 }
 
 module.exports = {
