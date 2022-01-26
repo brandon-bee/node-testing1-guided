@@ -58,6 +58,7 @@ describe('Car class', () => {
   })
   it('has an odometer at 0 miles', () => {
     // empty test is a false positive
-    const miata = new Car('miata', 'mazda', 'odometer')
+    const miata = new Car('miata', 'mazda')
+    expect(miata.odometer).toBe(0)
   })
 })
