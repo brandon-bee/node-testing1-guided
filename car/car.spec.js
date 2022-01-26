@@ -39,7 +39,6 @@ describe('comparing values', () => { // do not use async on the describe
 })
 
 describe('Car class', () => {
-
   let prius
   beforeEach(() => {
     prius = new Car('prius', 'toyota')
