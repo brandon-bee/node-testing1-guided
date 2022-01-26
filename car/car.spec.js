@@ -1,6 +1,4 @@
-function makeFive() {
-  return 4
-}
+
 
 
 test('sanity', () => {
@@ -14,6 +12,6 @@ describe('intro to testing', () => {
   test('structure of a test', () => {
     const expected = 5
     const actual = makeFive()
-    expect(actual).toBe(expe)
+    expect(actual).toBe(expected)
   })
 })
