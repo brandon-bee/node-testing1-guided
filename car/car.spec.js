@@ -25,5 +25,9 @@ describe('comparing values', () => { // do not use async on the describe
     expect('foo').toBe('foo') // use toBe with 'scalar' values like strings etc
     expect({}).toBe({})
     expect([]).toBe([])
+    const o = {}
+    const o2 = o
+
+    expect(o).toBe(o2)
   })
 })
