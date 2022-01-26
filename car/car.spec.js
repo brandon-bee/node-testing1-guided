@@ -4,5 +4,7 @@ test('sanity', () => {
 })
 
 describe('intro to testing', () => {
-  
+  test('sanity again', () => {
+    expect(true).not.toBe(false)
+  })
 })
