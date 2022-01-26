@@ -22,7 +22,7 @@ describe('intro to testing', () => {
 
 describe('comparing values', () => { // do not use async on the describe
   it('works with objects', () => {
-    expect(n)
+    expect('foo').toBe('foo') // use toBe with 'scalar' values like strings etc
     expect({}).toBe({})
     expect([]).toBe([])
   })
