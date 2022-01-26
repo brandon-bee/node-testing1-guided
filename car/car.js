@@ -7,7 +7,12 @@ async function makeFour() {
   return 4
 }
 
+function makeObj () {
+  return {}
+}
+
 module.exports = {
   makeFive,
   makeFour,
+  makeObj,
 }

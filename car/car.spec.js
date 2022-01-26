@@ -1,4 +1,4 @@
-const { makeFive, makeFour } = require('./car')
+const { makeFive, makeFour, makeObj } = require('./car')
 
 test('sanity', () => {
   expect(true).toBe(true)
@@ -33,6 +33,7 @@ describe('comparing values', () => { // do not use async on the describe
   test('shapes of composite values', () => {
     expect({}).toEqual({})
     expect([]).toEqual([])
+    expect(makeObj())
 
     const o = { name: 'lady gaga', password: '1234' }
     // YOU!!!!!
