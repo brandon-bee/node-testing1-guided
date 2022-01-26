@@ -22,6 +22,8 @@ describe('intro to testing', () => {
 
 describe('comparing values', () => { // do not use async on the describe
   it('works with objects', () => {
+    expect(n)
     expect({}).toBe({})
+    expect([]).toBe([])
   })
 })
