@@ -43,6 +43,7 @@ describe('Car class', () => {
   beforeEach(() => {
     prius = new Car('prius', 'toyota')
   })
+  // beforeAll, afterEach, afterAll
 
   it('exists', () => {
     // 0- start with tests in the green
@@ -61,5 +62,7 @@ describe('Car class', () => {
     // empty test is a false positive
     expect(prius.odometer).toBe(0)
   })
-  it.todo('has a drive method that takes distance and inc odometer')
+  it('has a drive method that takes distance and inc odometer', () => {
+    
+  })
 })
