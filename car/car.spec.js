@@ -65,6 +65,7 @@ describe('Car class', () => {
   it('has a drive method that takes distance and inc odometer', () => {
     // YOU
     // no need for a new car
-    // 
+    // drive the car
+    // assert that its odometer changed
   })
 })
