@@ -11,8 +11,11 @@ function makeObj () {
   return {}
 }
 
+class Car {}
+
 module.exports = {
   makeFive,
   makeFour,
   makeObj,
+  Car,
 }

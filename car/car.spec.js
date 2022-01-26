@@ -1,4 +1,4 @@
-const { makeFive, makeFour, makeObj } = require('./car')
+const { makeFive, makeFour, makeObj, Car } = require('./car')
 
 describe('intro to testing', () => {
   test('sanity again', () => {
