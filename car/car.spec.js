@@ -38,5 +38,6 @@ describe('comparing values', () => { // do not use async on the describe
     // YOU!!!!!
     expect(o.name).toBe('lady gaga')
     expect(o).toEqual({ name: 'lady gaga' })
+    expect(o).toMatchObject({ name: 'lady gaga' })
   })
 })
