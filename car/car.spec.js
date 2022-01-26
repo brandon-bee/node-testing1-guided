@@ -30,4 +30,7 @@ describe('comparing values', () => { // do not use async on the describe
     const o2 = o
     expect(o).toBe(o2)
   })
+  test('shapes of composite values', () => {
+    expect({}).toEqual({})
+  })
 })
