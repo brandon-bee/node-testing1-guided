@@ -63,7 +63,7 @@ describe('Car class', () => {
     expect(prius.odometer).toBe(0)
   })
   it('has a drive method that takes distance and inc odometer', () => {
-    expect(prius.drive)
+    expect(prius.drive).toBe(Car.prototype.drive)
     // drive the car
     // assert that its odometer changed
   })
