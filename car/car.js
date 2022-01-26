@@ -7,11 +7,13 @@ async function makeFour() {
   return 4
 }
 
-function makeObj () {
+function makeObj() {
   return {}
 }
 
-class Car {}
+class Car {
+
+}
 
 module.exports = {
   makeFive,
