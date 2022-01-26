@@ -41,8 +41,8 @@ describe('comparing values', () => { // do not use async on the describe
 describe('Car class', () => {
 
   let prius
-  beforeEaprius = new Car('prius', 'toyota')ch(() => {
-
+  beforeEach(() => {
+    prius = new Car('prius', 'toyota')
   })
 
   it('exists', () => {
