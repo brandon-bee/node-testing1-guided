@@ -48,5 +48,7 @@ describe('Car class', () => {
   })
   it('has a model prop', () => {
     // you
+    // instantiate a car using the Car class
+    // assert that it has the right prop
   })
 })
