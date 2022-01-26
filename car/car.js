@@ -4,7 +4,7 @@ function makeFive() {
 }
 
 async function makeFour() {
-  return 4
+  return 25
 }
 
 module.exports = {
