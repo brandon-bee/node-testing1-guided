@@ -46,10 +46,13 @@ describe('Car class', () => {
     // 3- reward yourself refactoring
     expect(Car).toBeDefined()
   })
-  it('has a model prop', () => {
+  it('has a model prop prius?', () => {
     // instantiate a car using the Car class
     const prius = new Car('prius')
     // assert that it has the right prop
     expect(prius).toHaveProperty('model', 'prius')
+  })
+  it('has a make prop totota?', () => {
+
   })
 })
