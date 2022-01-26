@@ -53,19 +53,14 @@ describe('Car class', () => {
     expect(Car).toBeDefined()
   })
   it('has a model prop prius', () => {
-    // instantiate a car using the Car class
-    const prius = new Car('prius')
-    // assert that it has the right prop
     expect(prius).toHaveProperty('model', 'prius')
   })
   it('has a make prop totota', () => {
-    const prius = new Car('prius', 'toyota')
     expect(prius.make).toBe('toyota')
   })
   it('has an odometer at 0 miles', () => {
     // empty test is a false positive
-    const miata = new Car('miata', 'mazda')
-    expect(miata.odometer).toBe(0)
+    expect(prius.odometer).toBe(0)
   })
   it.todo('has a drive method that takes distance and inc odometer')
 })
