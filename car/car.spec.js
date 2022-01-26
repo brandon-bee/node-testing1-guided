@@ -40,6 +40,7 @@ describe('comparing values', () => { // do not use async on the describe
 
 describe('Car class', () => {
   it('exists', () => {
+    // 1- write simplest possible failing test
     expect(Car).toBeDefined()
   })
 })
