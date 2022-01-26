@@ -12,8 +12,8 @@ function makeObj() {
 }
 
 class Car {
-  constructor() {
-    this.model = 'prius'
+  constructor(model) {
+    this.model = model
   }
 }
 

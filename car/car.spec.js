@@ -48,7 +48,7 @@ describe('Car class', () => {
   })
   it('has a model prop', () => {
     // instantiate a car using the Car class
-    const prius = new Car()
+    const prius = new Car('prius')
     // assert that it has the right prop
     expect(prius).toHaveProperty('model', 'prius')
   })
