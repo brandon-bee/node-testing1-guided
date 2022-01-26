@@ -53,6 +53,6 @@ describe('Car class', () => {
     expect(prius).toHaveProperty('model', 'prius')
   })
   it('has a make prop totota', () => {
-
+    
   })
 })
