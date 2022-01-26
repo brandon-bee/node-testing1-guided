@@ -37,7 +37,7 @@ describe('comparing values', () => { // do not use async on the describe
     const o = { name: 'lady gaga', password: '1234' }
     // YOU!!!!!
     expect(o.name).toBe('lady gaga')
-    expect(o).toEqual({ name: 'lady gaga' })
+    // expect(o).toEqual({ name: 'lady gaga' }) NOT VERY RESILIENT
     expect(o).toMatchObject({ name: 'lady gaga' })
   })
 })
