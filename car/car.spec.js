@@ -13,4 +13,8 @@ describe('intro to testing', () => {
     const actual = makeFive()
     expect(actual).toBe(expected)
   })
+  test('async function', async () => {
+    const expected = 4
+    const actual = await 
+  })
 })
