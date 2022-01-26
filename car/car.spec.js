@@ -14,5 +14,6 @@ describe('intro to testing', () => {
   test('structure of a test', () => {
     const expected = 5
     const actual = makeFive()
+    expect(actual).toBe(expe)
   })
 })
