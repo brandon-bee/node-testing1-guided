@@ -39,6 +39,12 @@ describe('comparing values', () => { // do not use async on the describe
 })
 
 describe('Car class', () => {
+
+  let prius
+  beforeEaprius = new Car('prius', 'toyota')ch(() => {
+
+  })
+
   it('exists', () => {
     // 0- start with tests in the green
     // 1- write simplest possible failing test
