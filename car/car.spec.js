@@ -53,6 +53,7 @@ describe('Car class', () => {
     expect(prius).toHaveProperty('model', 'prius')
   })
   it('has a make prop totota', () => {
-    
+    const prius = new Car('prius', 'toyota')
+    expect(prius.make).toEqual('toyota')
   })
 })
